@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static '/css/normalize.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <title>DOLMAR II - Zieliński Roman</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="alertalert" class="alert">
+  <button class="understand">OK</button>
+  <h1 class="first-line">DOLMAR II</h1>
+	<h1>ROMAN ZIELIŃSKI</h1>
+	<h3>wita na <span style="color: red;">NOWEJ</span> stronie internetowej!</h3>
+	<h5>Serdecznie zapraszamy do zapoznania się z treścią.</h5>
+	<h5 id="mobile-version">Jednocześnie zapraszamy także do korzystania z wersji mobilnej naszej witryny.</h5>
+</div>
+
+
+<div class="dropdown">
+	<div class="menu-left">
+  <button onclick="myFunction()" id="navbar2" class="dropbtn">
+  </button></div>
+	<div class="menu-logo-mobile">
+		<img src="/static/images/logo_PNG_white.png">
+	</div>
+  <div id="myDropdown" class="dropdown-content">
+	  <a href="#main_height"><img src="/static/images/back_to_top.png"></a>
+	  	  <a class="card" href="https://ekartoteki.dolmar-ii.pl/" target="_blank"><div class="link">E-KARTOTEKI</div></a>
+    <a href="#go_to_company">O&nbsp;FIRMIE</a>
+    <a href="#go_to_offer">OFERTA</a>
+    <a href="#go_to_associations">WSPÓLNOTY</a>
+	  <a class="space" href="#go_to_manager">ZARZĄDCA</a>
+	  <a class="space" href="#go_to_contact">KONTAKT</a>
+  </div>
+</div>
+
+
+<div class="dropdown2">
+  <button id="navbar22" class="dropbtn2">
+  </button>
+  <div class="dropdown-content2">
+	  <a class="blank"></a>
+	  <a href="#main_height"><img src="/static/images/back_to_top.png"></a>
+    <a href="#go_to_company">O&nbsp;FIRMIE</a>
+    <a href="#go_to_offer">OFERTA</a>
+    <a href="#go_to_associations">WSPÓLNOTY</a>
+	  <a class="space" href="#go_to_manager">ZARZĄDCA</a>
+	  <a class="space" href="#go_to_contact">KONTAKT</a>
+	  <a class="card" href="https://ekartoteki.dolmar-ii.pl/" target="_blank"><div class="link">E-KARTOTEKI</div></a>
+  </div>
+</div>
+
+	<main id="main_height">
+		<div class="menu">
+			<div class="menu-logo">
+				<img src="/static/images/logo_PNG_white.png">
+			</div>
+			<div class="menu-list">
+				<a class="space" href="#go_to_company">O&nbsp;FIRMIE</a><a class="space" href="#go_to_offer">OFERTA</a><a class="space" href="#go_to_associations">WSPÓLNOTY</a><a class="space" href="#go_to_manager">ZARZĄDCA</a><a class="space" href="#go_to_contact">KONTAKT</a><a class="card" href="https://ekartoteki.dolmar-ii.pl/" target="_blank"><div class="link">E-KARTOTEKI</div></a>
+			</div>
+		</div>
+
+		<div class="main_text">
+			<div class="vertical-center">
+				<div class="first_line" >ZARZĄDZANIE NIERUCHOMOŚCIAMI</div>
+				<div class="second_line">TO NASZA SPECJALNOŚĆ</div>
+			</div>
+		</div>
+	</main>
+
+	<div class="company" id="go_to_company">
+		company
+	</div>
+
+	<div class="offer" id="go_to_offer">
+		offer
+	</div>
+
+	<div class="associations" id="go_to_associations">
+		associations
+	</div>
+
+	<div class="manager" id="go_to_manager">
+		manager
+	</div>
+
+	<div class="contact" id="go_to_contact">
+		contact
+	</div>
+
+
+<script type="text/javascript" src="{% static '/js/dropdown_menu.js' %}"></script>
+<script type="text/javascript" src="{% static '/js/appereance_menu.js' %}"></script>
+<script type="text/javascript" src="{% static '/js/alert_show.js' %}"></script>
+<script type="text/javascript" src="{% static '/js/time_for_alert_show.js' %}"></script>
+
+</body>
+</html>

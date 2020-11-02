@@ -1,0 +1,753 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alert {
+    //display: none;
+    position: fixed;
+    top: 10vh;
+    width: 80%;
+    //left: 10%;
+    right: 10%;
+    height: 80%;
+    padding: 20px;
+    background-color: #0d2e35;
+    color: white;
+    opacity: 0.95;
+    //transition: opacity 0.6s;
+    margin-bottom: 15px;
+    z-index: 5;
+    border-radius: 5%;
+}
+
+.alert h1 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.alert h3 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.alert h5 {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.understand {
+    //background-color: #ebebeb;
+    color: black;
+    width: 20%;
+    left: 40%;
+    position: absolute;
+    top: 80%;
+    font-weight: 700;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.understand:hover {
+    color: gray;
+}
+
+.dropbtn {
+    display:none;
+}
+
+.dropbtn div {
+    display:none;
+}
+
+.one {
+    display:none;
+}
+
+.two {
+    display:none;
+}
+
+.three {
+    display:none;
+}
+
+.dropdown {
+    display:none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    display:none;
+}
+
+.dropdown-content a img {
+    display:none;
+}
+
+.dropbtn2 {
+    border: none;
+    position: fixed;
+    height: 2vw;
+    top: 0;
+    display:none;
+    background-color:transparent;
+    width: 3vw;
+    //min-width: 50px;
+    margin-left: 4.5vw;
+    margin-top: 1vw;
+    background-image: url("/static/images/burger.png");
+    //background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.dropdown2 {
+    position: fixed;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: fixed;
+    //background-color: #f1f1f1;
+    width: 12vw;
+    min-width: 50px;
+    box-shadow: 0px 1vw 2vw 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 3vw;
+}
+
+.dropdown-content2 a {
+    font-size: 1.2vw;
+    text-align: center;
+    color: white;
+    padding: 1vw 1.4vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a.blank {
+    height: 1vw;
+    font-size: 0;
+    padding: 0 0 0 0;
+}
+
+.dropdown-content2 a img {
+    //padding-left: 1.5vw;
+    height: 16px;
+}
+
+.dropdown-content2 a:hover {
+    border: 2px solid white;
+}
+
+.dropdown-content2 a.blank:hover {
+    border:none;
+}
+
+.dropdown-content2 a.card:hover {
+    border: 2px solid red;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropbtn2:hover {
+    margin-left: 4vw;
+    width: 4vw;
+}
+
+.menu-left{
+    display:none;
+}
+
+main {
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+main div.menu {
+    display: flex;
+    width:90%;
+    //min-height: 5vw;
+    height: 4.8vw;
+    margin: auto;
+    margin-top: 5vw;
+    z-index: 2;
+}
+
+.menu-logo {
+    width: 25%;
+}
+
+.menu-logo img {
+    height: 100%;
+    width: auto;
+}
+
+.menu-space {
+    width: 5%;
+    height: 100%;
+}
+
+.menu-list {
+    width: 70%;
+    height: 100%;
+    padding-right: 3vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-list a{
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-list a.space{
+    margin-right: 0.5vw;
+}
+
+.menu a:hover {
+    border: 2px solid white;
+}
+
+.menu a.card:hover {
+    border: 2px solid red;
+}
+
+.link {
+    color: red;
+}
+
+.main_text {
+    text-align: center;
+    color: white;
+    margin-bottom: 48vh;
+}
+
+.first_line {
+    font-size: 1.7vw;
+    font-weight: 300;
+}
+
+.second_line {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+div.company {
+    text-align: center;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-top: 0.5vw solid white;
+}
+
+div.offer {
+    text-align: center;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-top: 0.5vw solid white;
+}
+
+div.associations {
+    text-align: center;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-top: 0.5vw solid white;
+}
+
+div.manager {
+    text-align: center;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-top: 0.5vw solid white;
+}
+
+div.contact {
+    text-align: center;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    height: 650px;
+    background-image: url("/static/images/foto_background_1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-top: 0.5vw solid white;
+}
+
+@media screen and (max-width: 1100px) {
+
+.menu-logo {
+    width: 30%;
+}
+
+.menu-space {
+    width: 15%;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+main {
+    width:100%;
+    min-height: 100vh;
+    height: 400px;
+}
+
+main div.menu {
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    //min-height: 3vh;
+    height: 5vw;
+    margin: auto;
+    margin-top: 5vw;
+    z-index: 2;
+}
+
+.menu-logo {
+    height: 7vw;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.menu-logo img {
+    //margin-top: 0vw;
+    height: 100%;
+    width: auto;
+    //padding: 15px;
+    //border: 1px solid white;
+}
+
+//.menu-space {
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 5vw;
+    background-color: yellow;
+}
+
+.menu-list {
+    //background-color: red;
+    //border: 1px solid white;
+    width: 100%;
+    height: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.menu-list a{
+    font-size: 1.7vw;
+    height: 5vw;
+}
+
+.menu-list a.space{
+    margin-right: 3vw;
+}
+
+.menu a:hover {
+    border: 1.5px solid white;
+    //font-weight: bold;
+}
+
+.menu a.card:hover {
+    border: 1.5px solid red;
+    //font-weight: bold;
+}
+
+.main_text {
+    //border: 1px solid white;
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin-bottom: 28vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.first_line {
+    font-size: 2.5vw;
+    font-weight: 300;
+}
+
+.second_line {
+    font-size: 5.5vw;
+    font-weight: 700;
+}
+
+}
+
+@media screen and (max-width: 550px) {
+
+body {
+    //background-color: #0d2e35;
+}
+
+.alert {
+    //display: none;
+    position: fixed;
+    //top: 10vh;
+    top:12.5vh;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    height: 87.5vh;
+    padding: 20px;
+    background-color: #0d2e35;
+    color: white;
+    opacity: 1;
+    //transition: opacity 0.6s;
+    margin-bottom: 15px;
+    z-index: 6;
+    border-radius: 0%;
+}
+
+.alert h1 {
+    font-size: 4.5vh;
+}
+
+.alert h1.first-line {
+    margin-top: 8vh;
+    font-size: 4.5vh;
+}
+
+.alert h3 {
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.alert h5 {
+    font-size: 2.5vh;
+}
+
+
+.understand {
+    //background-color: #ebebeb;
+    color: black;
+    width: 30%;
+    left: 35%;
+    position: absolute;
+    top: 70%;
+    font-weight: 700;
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+.menu-left {
+    border: none;
+    position: fixed;
+    height: 12.5vh;
+    top: 0;
+    display:block;
+    //background-color:transparent;
+    background-color:#0a2440;
+    //background-color:yellow;
+    width: 30vw;
+    min-width: 50px;
+    //margin: 1em 0 0 1em;
+    //padding-left: 10vw;
+    z-index:3;
+}
+
+.dropbtn {
+    border: none;
+    height: 8vw;
+    margin-left: 5vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:block;
+    //background-color:transparent;
+    background-color:#0a2440;
+    background-image: url("/static/images/burger.png");
+    //background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width: 12vw;
+    z-index:3;
+}
+
+.menu-logo-mobile {
+    height: 12.5vh;
+    background-color:#0a2440;
+}
+
+.menu-logo-mobile img {
+    height: 9vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 50vw;
+    right: 0;
+    bottom: 0;
+}
+
+.dropbtn div {
+    display:block;
+    height: 1vw;
+    background-color: white;
+    //margin: 1.4vw 0;
+    margin-left: 0;
+    padding-left:0;
+    border-radius: 0.8vw;
+}
+
+.dropbtn img {
+    width: 10vw;
+}
+
+.dropdown {
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #0a2440;
+    width: 100vw;
+    //min-width: 50px;
+    z-index: 1;
+    top: 12.5vh;
+    height: 100vh;
+}
+
+.dropdown-content a {
+    height: 12.5vh;
+    line-height: 12.5vh;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0vh;
+    padding-left: 3vw;
+    text-decoration: none;
+    text-decoration-color: gray;
+    display: block;
+    //margin-top: 2vh;
+    border-top: 0.5px solid white;
+}
+
+.dropdown-content a:active {
+    color: gray;
+    border: 1px solid white;
+}
+
+.dropdown-content a img {
+    display: block;
+    height: 4vh;
+    //position: absolute;
+    margin: auto;
+    margin-top: 4.25vh;
+}
+
+.dropdown-content a:hover {
+    border: 2px solid white;
+}
+
+//.dropdown-content a.card:hover {
+    border: 2px solid red;
+}
+
+//.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+//.dropbtn:hover {
+    width: 14vw;
+    border: none;
+    //margin-left: 4vw;
+}
+
+.menu-left button:hover {
+    border: none;
+}
+
+.menu-left button:focus {
+    outline:0; width;
+}
+
+//.dropbtn:hover div {
+    width: 14vw;
+}
+
+.show {
+    display: block;
+}
+
+.dropbtn2 {
+    display:none;
+}
+
+.dropbtn2 div {
+    display:none;
+}
+
+.one2 {
+    display:none;
+}
+
+.two2 {
+    display:none;
+}
+
+.three2 {
+    display:none;
+}
+
+.dropdown2 {
+    display:none;
+}
+
+.dropdown-content2 {
+    display:none;
+}
+
+.dropdown-content2 a {
+    display:none;
+}
+
+.dropdown-content2 a img {
+    display:none;
+}
+
+main {
+    background-image: none;
+}
+
+main div.menu {
+    margin-top:20vw;
+}
+
+div.menu {
+    display: none;
+}
+
+.menu-logo {
+    display: none;
+}
+
+.menu-list {
+    display: none;
+}
+
+main {
+    width:100%;
+    height: 100vh;
+    //height: 650px;
+    background-image: url("/static/images/mobilka_4.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.main_text {
+    text-align: center;
+    color: white;
+    margin-bottom: 40vh;
+}
+
+div.company {
+    background-image: url("/static/images/mobilka_4.png");
+}
+
+div.offer {
+    background-image: url("/static/images/mobilka_4.png");
+}
+
+div.associations {
+    background-image: url("/static/images/mobilka_4.png");
+}
+
+div.manager {
+    background-image: url("/static/images/mobilka_4.png");
+}
+
+div.contact {
+    background-image: url("/static/images/mobilka_4.png");
+}
+
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
+@media screen and (min-width: 1800px) {
+
+}
+
+@media screen and (min-width: 2500px) {
+
+}
+
+@media screen and (min-width: 3500px) {
+
+}
