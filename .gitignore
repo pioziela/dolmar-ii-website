@@ -129,4 +129,15 @@ dmypy.json
 .pyre/
 
 migrations/
+<<<<<<< HEAD
 settings.py
+dolmar_website/settings.py
+wsgi.py
+start-server.sh
+requirements.txt
+nginx.default
+Dockerfile
+docker-compose.yml
+=======
+settings.py
+>>>>>>> 913effeb78131c7d89b09d1eb7e29858f290d1d0
