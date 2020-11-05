@@ -77,16 +77,141 @@
 	</main>
 
 	<div class="company" id="go_to_company">
-		company
+		<div class="company_title">O FIRMIE</div>
+		<div class="company_information1">
+			<font color="#0269b4"> DOLMAR II Roman Zieliński</font> - Biuro Zarządzania Nieruchomościami w Toruniu
+                zajmuje się administrowaniem budynkami, które powstały na skutek ustawy o własności lokali z 1994r.
+		</div>
+		<div class="company_information2">
+			Firma DOLMAR II to ponad <font color="#0269b4">{{company_years}} lat doświadczeń</font>, biura w Toruniu i Bydgoszczy, wykwalifikowani
+			pracownicy i obecnie {{associations_quantity}} {{associations_text}}, którymi zarządzamy.
+		</div>
+		<div class="company_information3">
+			Oferujemy Państwu <font color="#0269b4">usługi</font> w zakresie profesjonalnego zarządzania nieruchomościami.</br>
+			W ramach naszych zadań zajmujemy się między innymi:
+			<ul>
+				<li>obsługą rachunkową</li>
+				<li>prowadzeniem remontów</li>
+				<li>doradztwem finansowym</li>
+				<li>obsługą techniczną budynków.</li>
+			</ul>
+			Więcej informacji znaleźć można w zakładce <a style="text-decoration: none;" href="#go_to_offer"><font color="#0269b4">OFERTA</font></a>.
+		</div>
 	</div>
 
 	<div class="offer" id="go_to_offer">
-		offer
+		<div class="offer_title">OFERTA</div>
+		<div class="offer_menu">
+			<div class="offer_menu_first_line">
+				<div class="offer_menu_first_line_choose">
+					<button id="obsluga"><div class="offer_menu_first_line_choose_image"><img src="/static/images/obsluga_rachunkowa_1.png"><img src="/static/images/obsluga_rachunkowa_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_first_line_choose_description">PEŁNA OBSŁUGA</br>RACHUNKOWA</div>
+				</div>
+				<div class="offer_menu_first_line_choose">
+					<button id="finanse"><div class="offer_menu_first_line_choose_image"><img src="/static/images/doradztwo_finansowe_1.png"><img src="/static/images/doradztwo_finansowe_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_first_line_choose_description">DORADZTWO</br>FINANSOWE</div>
+				</div>
+				<div class="offer_menu_first_line_choose">
+					<button id="doradztwo"><div class="offer_menu_first_line_choose_image"><img src="/static/images/obsluga_i_doradztwo_tech_1.svg"><img src="/static/images/obsluga_i_doradztwo_tech_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_first_line_choose_description">OBSŁUGA I DORADZTWO</br>TECHNICZNE</div>
+				</div>
+				<div class="offer_menu_first_line_choose">
+					<button id="remonty"><div class="offer_menu_first_line_choose_image"><img src="/static/images/remonty_1.png"><img src="/static/images/remonty_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_first_line_choose_description">PROWADZENIE</br>REMONTÓW</div>
+				</div>
+			</div>
+			<div class="offer_menu_second_line">
+				<div class="offer_menu_second_line_choose">
+					<button id="interesy"><div class="offer_menu_second_line_choose_image"><img src="/static/images/interesy_wspolnoty_1.svg"><img src="/static/images/interesy_wspolnoty_2.svg" class="img_hover"></div></button>
+					<div class="offer_menu_second_line_choose_description">REPREZENTACJA</br>INTERESÓW WSPÓLNOTY</div>
+				</div>
+				<div class="offer_menu_second_line_choose">
+					<button id="przejrzystosc"><div class="offer_menu_second_line_choose_image"><img src="/static/images/przejrzystosc_dzialan_1.png"><img src="/static/images/przejrzystosc_dzialan_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_second_line_choose_description">PRZEJRZYSTOŚĆ</br>I JAWNOŚĆ DZIAŁAŃ</div>
+				</div>
+				<div class="offer_menu_second_line_choose">
+					<button id="kontrola"><div class="offer_menu_second_line_choose_image"><img src="/static/images/kontrola_1.png"><img src="/static/images/kontrola_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_second_line_choose_description">KONTROLA WŁAŚCICIELI</br>NAD GOSPODARKĄ</br>WSPÓLNOTY</div>
+				</div>
+				<div class="offer_menu_second_line_choose">
+					<button id="oferta"><div class="offer_menu_second_line_choose_image"><img src="/static/images/oferta_1.png"><img src="/static/images/oferta_2.png" class="img_hover"></div></button>
+					<div class="offer_menu_second_line_choose_description">MOJA OFERTA</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer_description">
+				<div id="description_rachunkowosc" style="display:flex;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie rachunków bankowych wspólnoty i dokonywanie rozliczeń przez ten rachunek.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie rozliczeń z dostawcami mediów.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie ewidencji pozaksięgowej kosztów zarządzania nieruchomością wspólną przy pomocy specjalistycznego, licencjonowanego oprogramowania komputerowego.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Ściąganie zaległości od właścicieli zalegających z płatnościami.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Reprezentowanie Wspólnoty Mieszkaniowej przed sądami, w sprawie zaległości właścicieli.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+                <div id="description_doradztwo" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie korespondencji związanej ze sprawami dotyczącymi nieruchomości.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie negocjacji z firmami wykonującymi usługi dla Wspólnoty Mieszkaniowej.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Wybór niedrogich firm budowlanych wykonujących usługi na wysokim poziomie.</div></div>
+					<div class="description_list"></div>
+					<div class="description_list"></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+                <div id="description_obsluga" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Nadzór nad prowadzeniem bieżącej konserwacji obiektu.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Wybór wykonawców o bardzo dobrej opinii i wysokiej jakości wykonania usługi oraz przeprowadzanie negocjacji z nimi.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Wykonanie, analiza i zatwierdzanie kosztorysów.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie dokumentacji technicznej nieruchomości, w tym książki obiektu budowlanego zgodnie z wymogami prawa budowlanego.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Przeprowadzanie kontroli technicznych, okresowych i pięcioletnich wymaganych ustawą przeglądów w ramach umowy o administrowanie.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Bieżąca kontrola napraw i konserwacji budynku oraz nad usuwaniem awarii ich skutków.</div></div>
+				</div>
+                <div id="description_remonty" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Nadzór nad prowadzeniem bieżącej konserwacji obiektu.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Wybór wykonawców o bardzo dobrej opinii i wysokiej jakości wykonania usługi oraz przeprowadzanie negocjacji z nimi.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Wykonanie, analiza i zatwierdzanie kosztorysów.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Prowadzenie dokumentacji technicznej nieruchomości, w tym książki obiektu budowlanego zgodnie z wymogami prawa budowlanego.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Przeprowadzanie kontroli technicznych, okresowych i pięcioletnich wymaganych ustawą przeglądów w ramach umowy o administrowanie.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Bieżąca kontrola napraw i konserwacji budynku oraz nad usuwaniem awarii ich skutków.</div></div>
+				</div>
+                <div id="description_przejrzystosc" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Dbanie o utrzymanie porządku i czystości w budynku oraz w jego obrębie (częste kontrole i spotkania z zainteresowanymi nieruchomością).</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Częste spotkania z Zarządami Wspólnot Mieszkaniowych.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Omawianie sytuacji finansowej Wspólnoty Mieszkaniowej z Zarządem.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Omawianie potrzeb, tj. remontów i kosmetyki zewnętrznej budynku z Zarządem Wspólnoty Mieszkaniowej.</div></div>
+					<div class="description_list"></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+                <div id="description_reprezentacja" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Zapewnienie dostaw usług komunalnych - negocjacje przy podpisywaniu nowej umowy z dostawcami usług, media.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Zawieranie umów ubezpieczenia budynku - pełen zakres ubezpieczenia.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Wyszukiwanie firm świadczących usługi na rzecz nieruchomości, oraz negocjacje cen i warunków umów.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Przygotowanie planów remontów oraz pełen nadzór nad firmami budowlanymi.</div></div>
+					<div class="description_list"></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+                <div id="description_kontrola" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Przygotowywanie projektu planu gospodarczego.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Dostęp do dokumentów Wspólnoty Mieszkaniowej.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Szybkie wykonywanie wniosków zaleconych przez Zarząd Wspólnoty Mieszkaniowej po dokonaniu kontroli.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Sporządzanie rocznych sprawozdań finansowych wspólnoty.</div></div>
+					<div class="description_list"></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+                <div id="description_oferta" style="display:none;">
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Wykonywanie usługi administrowania proponuję w wysokości 450zł miesięcznie za budynek o powierzchni użytkowej do 850m<sup>2</sup>.</div></div>
+					<div class="description_list"><img src="/static/images/lista.svg"><div>Wykonanie usługi administrowania budynku powyżej 850m<sup>2</sup> proponuję wynagrodzenie w wysokości 0,50zł/m<sup>2</sup> miesięcznie.</div></div>
+					<div style="padding-right: 0vw;" class="description_list"><img src="/static/images/lista.svg"><div>Ceny za administrowanie budynkami są zawsze do negocjacji przed podpisaniem umowy ze Wspólnotą Mieszkaniową.</div></div>
+					<div class="description_list"></div>
+					<div class="description_list"></div>
+					<div style="padding-right: 0vw;" class="description_list"></div>
+				</div>
+		</div>
 	</div>
 
+
 	<div class="associations" id="go_to_associations">
-		associations
+
 	</div>
+
 
 	<div class="manager" id="go_to_manager">
 		manager
@@ -101,6 +226,7 @@
 <script type="text/javascript" src="{% static '/js/appereance_menu.js' %}"></script>
 <script type="text/javascript" src="{% static '/js/alert_show.js' %}"></script>
 <script type="text/javascript" src="{% static '/js/time_for_alert_show.js' %}"></script>
+<script type="text/javascript" src="{% static '/js/offer.js' %}"></script>
 
 </body>
 </html>

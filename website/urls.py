@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
-from website.views import managment_time
+from website.views import index
 
 urlpatterns = [
-    path('', managment_time)
+    path('', index)
 ]
