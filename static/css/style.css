@@ -60,7 +60,7 @@ body {
     color: black;
     width: 20%;
     left: 40%;
-    position: absolute;
+    //position: absolute;
     font-weight: 700;
     font-size: 2vw;
     cursor: pointer;
@@ -734,6 +734,9 @@ body {
 
 .alert h1 {
     font-size: 4.5vh;
+    line-height: 6vh;
+    margin-bottom: 0;
+    margin-top: 2vh;
 }
 
 
@@ -756,12 +759,13 @@ body {
     //background-color: #ebebeb;
     color: black;
     width: 30%;
-    left: 35%;
-    position: absolute;
-    top: 70%;
+    margin: auto;
+    //position: absolute;
+    //top: 70%;
     font-weight: 700;
     font-size: 4vh;
     cursor: pointer;
+    margin-top: 16vh;
 }
 
 .understand:hover {
