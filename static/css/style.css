@@ -23,7 +23,7 @@ body {
 
 .alert h1 {
     height: 17vh;
-    //background-color: red;
+    //background-color: blue;
     text-align: center;
     font-size: 4vw;
     line-height: 5.5vw;
@@ -56,19 +56,26 @@ body {
 }
 
 .understand {
-    //background-color: green;
+    width: 10vw;
+    text-align: center;
+    margin-top: 7vh;
+    margin-left: 32vw;
+    background-color: white;
     color: black;
-    width: 20%;
-    left: 40%;
-    //position: absolute;
     font-weight: 700;
     font-size: 2vw;
     cursor: pointer;
-    margin-top: 52vh;
+    //height: 3vh;
+    border: none;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
 }
 
 .understand:hover {
-    color: gray;
+    background-color: gray;
 }
 
 .dropbtn {
@@ -754,24 +761,12 @@ body {
     font-size: 2.5vh;
 }
 
-
 .understand {
-    //background-color: #ebebeb;
-    color: black;
-    width: 30%;
-    margin: auto;
-    //position: absolute;
-    //top: 70%;
-    font-weight: 700;
-    font-size: 4vh;
-    cursor: pointer;
-    margin-top: 16vh;
+    width: 20vw;
+    margin-top: 15vh;
+    margin-left: 35vw;
+    font-size: 3.5vh;
 }
-
-.understand:hover {
-    color: gray;
-}
-
 
 .menu-left {
     border: none;
@@ -990,8 +985,77 @@ main {
     margin-bottom: 40vh;
 }
 
+.first_line {
+    font-size:  2vh
+}
+
+.second_line {
+    font-size:  4vh
+}
+
 div.company {
-    //background-image: url("/static/images/mobilka_4.png");
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width:100%;
+    min-height: 100vh;
+    //height: 650px;
+    //background-image: url("/static/images/budynek_o_firmie.png"), url("/static/images/niebo_o_firmie_tlo.png");
+    //background-position: right -15% bottom, left top ;
+    background-repeat: no-repeat, no-repeat;
+    background-size:0% 100%, cover;
+    background-image: none, url("/static/images/niebo_o_firmie_tlo.png");
+}
+
+div.company_title {
+    width: 100vw;
+    height: 8vh;
+    background-color: red;
+    font-weight: 700;
+    font-size: 5vh;
+    color: #0269b4;
+    margin: auto;
+    margin-top: 14vh;
+    line-height: 8vh;
+    text-align: center;
+}
+
+div.company_information1 {
+    width: 90vw;
+    height: 15vh;
+    background-color: red;
+    font-weight: 500;
+    font-size: 3vh;
+    color: black;
+        margin-left: 4vw;
+        position: relative;
+        margin-top: 0vh;
+    line-height: 4vh;
+    padding: 0;
+}
+
+div.company_information2 {
+    width: 45%;
+    height: 6vw;
+    //background-color: green;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: black;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    line-height: 2vw;
+}
+
+div.company_information3 {
+    width: 45%;
+    height: 20vw;
+    //background-color: green;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: black;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    line-height: 2vw;
 }
 
 div.offer {
